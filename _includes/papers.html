@@ -1,0 +1,14 @@
+<section class="container-fluid bg-light">
+  <div class="container">
+    <div class="col-md-6 mx-auto">
+      <h2 class="text-center fw-bold">ACCEPTED PAPERS</h2>
+      {% for paper in site.data.papers %}
+      <p class="mt-4 mb-0 fw-bold">{{paper.title}}</p>
+      <p class="mb-0 text-muted">{{paper.author}}</p>
+      <a type="button" class="btn btn-primary btn-sm mb-0" href="{{paper.file}}">
+        <i class="bi bi-download me-2"></i>Get PDF
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

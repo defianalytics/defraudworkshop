@@ -1,0 +1,13 @@
+<section class="container-fluid bg-light">
+  <div class="container">
+
+    <h2 class="text-center fw-bold">PROGRAM COMMITTEE</h2>
+    <div class="row mt-4">
+      <ul class="list-unstyled news">
+        {% for member in site.data.pc %}
+        <li>{{member.name}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

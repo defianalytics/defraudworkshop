@@ -1,0 +1,29 @@
+- name: Neil Shah
+  title: Snap
+  photo: https://i.pravatar.cc/300?img=7
+  isMod: true
+
+- name: Solon Barocas
+  title: Microsoft Research
+  photo: https://i.pravatar.cc/300?img=8
+  isMod: false
+
+- name: Ian Davidson
+  title: UC Davis
+  photo: https://i.pravatar.cc/300?img=9
+  isMod: false
+
+- name: Jing Gao
+  title: Purdue University
+  photo: https://i.pravatar.cc/300?img=10
+  isMod: false
+
+- name: Deepak Padmanabhan
+  title: Queen's University Belfast
+  photo: https://i.pravatar.cc/300?img=11
+  isMod: false
+
+- name: Hanghang Tong
+  title: UIUC
+  photo: https://i.pravatar.cc/300?img=12
+  isMod: false

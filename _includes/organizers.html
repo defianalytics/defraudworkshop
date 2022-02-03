@@ -1,0 +1,12 @@
+<section class="container">
+  <h2 class="text-center fw-bold">ORGANIZERS</h2>
+  <div class="row row-cols-2 row-cols-md-6 g-5 mt-4">
+    {% for organizer in site.data.organizers %}
+    <div class="col">
+      <img src="{{ organizer.photo }}" class="img-fluid rounded-circle">
+      <p class="text-center fw-bold mt-2 mb-0">{{ organizer.name }}</p>
+      <p class="text-center text-muted">{{ organizer.title }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>

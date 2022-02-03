@@ -1,0 +1,23 @@
+<section class="container">
+
+  <h2 class="text-center fw-bold">PREVIOUS WORKSHOPS</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+    {% for workshop in site.data.history %}
+    <div class="col">
+      <div class="card">
+        <img src="{{workshop.image}}" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">{{workshop.place}}</h5>
+          <p class="card-text text-muted">{{workshop.year}}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    <!-- <ul class="list-unstyled text-center">
+      {% for workshop in site.data.history %}
+      <li>{{workshop.year}}, {{workshop.place}}</li>
+      {% endfor %}
+    </ul> -->
+  </div>
+
+</section>

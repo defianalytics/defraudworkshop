@@ -1,0 +1,15 @@
+- year: 2018
+  place: London, United Kingdom
+  image: https://picsum.photos/300/200?random=1
+- year: 2016
+  place: San Francisco, USA
+  image: https://picsum.photos/300/200?random=2
+- year: 2015
+  place: Sydney, Australia
+  image: https://picsum.photos/300/200?random=3
+- year: 2014
+  place: New York City, USA
+  image: https://picsum.photos/300/200?random=4
+- year: 2013
+  place: Chicago, USA
+  image: https://picsum.photos/300/200?random=5
