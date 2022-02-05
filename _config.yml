@@ -10,12 +10,6 @@ github_username:  jekyll
 plugins:
   - jekyll-feed
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
-include:
-  - node_modules
 
 # Exclude from processing.
 # The following items will not be processed, by default.
