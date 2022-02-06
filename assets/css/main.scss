@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
+$primary: #0C2031;
+$secondary: #69A2C1;
+$success: #187A1A;
+$info: #00728E;
+$warning: #A85905;
+$danger: #93192F;
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+  "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-serif: 'Roboto Slab', serif;
+$headings-font-family: $font-family-sans-serif;
+$headings-color: $primary;
+$lead-font-weight: 400;
 $card-height: 100%;
 
 // 3. Include remainder of required Bootstrap stylesheets
@@ -28,22 +42,34 @@ $card-height: 100%;
 @import "../../node_modules/bootstrap/scss/utilities/api";
 
 // 6. Add additional custom code here
+body {
+  font-family: $font-family-serif;
+}
+
+.lead {
+  font-style: italic;
+}
+
 .hero {
   height: 50vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
+  background-image: url("../images/hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
 }
 
-section {
-  padding: 10rem 0;
+.hero h1 {
+  color: white !important;
 }
 
-// .text-justify {
-//   text-align: justify;
-// }
+section {
+  padding: 5rem 0;
+}
+
+.text-justify {
+  text-align: justify;
+}
 
 table{
   outline: 1px solid #dee2e6!important;

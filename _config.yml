@@ -1,11 +1,11 @@
-title: DeFroud WorkShop
+title: DeFraud WorkShop
 email: your-email@example.com
 description: Workshop for understanding and explaining fraud within DeFi
 domain: defianalytics.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://defianalytics.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /defraudworkshop/            # the folder where your content is placed
+#baseurl: /defraudworkshop             # the folder where your content is placed
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  jekyllrb
 
 # Build settings
 plugins:

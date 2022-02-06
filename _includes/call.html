@@ -1,7 +1,12 @@
+{% capture content %}
+{% include call.md %}
+{% endcapture %}
+
 <section class="container">
   <h2 class="text-center fw-bold mb-4">CALL FOR PAPERS</h2>
-  <div class="text-justify">
-    <p>We welcome many kinds of papers, such as, but not limited to:</p>
+  <div class="text-justify text-muted">
+    {{ content | markdownify }}
+    <!-- <p>We welcome many kinds of papers, such as, but not limited to:</p>
     <ul>
       <li>Novel research papers</li>
       <li>Work that will be presented at KDD</li>
@@ -12,7 +17,7 @@
     </ul>
     <p>While we aim for a focus on the theme of fairness and transparency, we welcome papers addressing any other
       challenges at large of the subject area. Topics of interest include, but are not limited to:</p>
-    <ul class="news">
+    <ul class="news text-start">
       <li><strong>Interleaved detection and description of outliers:</strong>
         <ul>
           <li>Description models for given outliers</li>
@@ -88,6 +93,6 @@
     <p>For paper submission, please proceed to the submission website.</p>
     <p>Please send enquiries to siddharth@comp.nus.edu.sg</p>
     <p>To receive updates about the current and future workshops and the Outlier Detection community, please fill your
-      contact information, or follow on Twitter.</p>
+      contact information, or follow on Twitter.</p> -->
   </div>
 </section>
