@@ -4,6 +4,7 @@
 @import "../../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
+$primary-color: #0070f3;
 $primary: #0C2031;
 $secondary: #69A2C1;
 $success: #187A1A;
@@ -61,6 +62,10 @@ body {
 
 .hero h1 {
   color: white !important;
+}
+
+.hero a {
+  color: #0070f3 !important;
 }
 
 section {
