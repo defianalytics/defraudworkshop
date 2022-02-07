@@ -1,26 +1,28 @@
 <section class="container">
-  <h2 class="text-center fw-bold">SPEAKERS</h2>
-  <h3 class="text-center fw-bold text-muted mt-5 mb-3">KEYNOTE TALKS</h3>
-  <div class="row row-cols-2 row-cols-md-6 g-5">
-    {% for member in site.data.keynote %}
-    <div class="col">
-      <img src="{{ member.photo }}" class="img-fluid rounded-circle">
-      <p class="text-center fw-bold mt-2 mb-0">{{ member.name }}</p>
-      <p class="text-center text-muted">{{ member.title }}</p>
+  <div class="row justify-content-center">
+    <h2 class="text-center fw-bold">SPEAKERS</h2>
+    <h3 class="text-center fw-bold text-muted mt-5 mb-3">KEYNOTE TALKS</h3>
+    <div class="row row-cols-2 row-cols-md-6 g-5">
+      {% for member in site.data.keynote %}
+      <div class="col">
+        <img src="{{ member.photo }}" class="img-fluid rounded-circle">
+        <p class="text-center fw-bold mt-2 mb-0">{{ member.name }}</p>
+        <p class="text-center text-muted">{{ member.title }}</p>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
-  </div>
-  <h3 class="text-center fw-bold text-muted mt-5 mb-3">FAIRNESS PANEL</h3>
-  <div class="row row-cols-2 row-cols-md-6 g-5">
-    {% for member in site.data.panel %}
-    <div class="col">
-      <img src="{{ member.photo }}" class="img-fluid rounded-circle">
-      <p class="text-center fw-bold mt-2 mb-0">{{ member.name }}</p>
-      <p class="text-center text-muted mb-0">{{ member.title }}</p>
-      {% if member.isMod %}
-      <p class="text-center fw-bold small">Moderator</p>
-      {% endif %}
+    <h3 class="text-center fw-bold text-muted mt-5 mb-3">FAIRNESS PANEL</h3>
+    <div class="row row-cols-2 row-cols-md-6 g-5">
+      {% for member in site.data.panel %}
+      <div class="col">
+        <img src="{{ member.photo }}" class="img-fluid rounded-circle">
+        <p class="text-center fw-bold mt-2 mb-0">{{ member.name }}</p>
+        <p class="text-center text-muted mb-0">{{ member.title }}</p>
+        {% if member.isMod %}
+        <p class="text-center fw-bold small">Moderator</p>
+        {% endif %}
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </section>

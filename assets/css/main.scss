@@ -123,3 +123,8 @@ table{
 .youtube:hover {
   color: #FF0000 !important;
 }
+
+.twitter,
+.youtube {
+  transition: ease-in-out .4s;
+}
