@@ -1,8 +1,21 @@
 <footer class="container-fluid bg-primary text-white">
-  <div class="row p-5 text-center">
-    <div class="col-auto mx-auto">
-      <strong>{{site.title}}</strong> Copyright ©
-      <script>document.write(new Date().getFullYear())</script>.
+  <div class="row row-cols-1 row-cols-md-3 g-5 p-5 text-center">
+    <div class="col">
+      <strong>{{site.title}}</strong><br>
+      <span class="text-sans-serif">
+        Copyright ©
+        <script>document.write(new Date().getFullYear())</script>.
+      </span>
+    </div>
+    <div class="col">
+      <p class="text-sans-serif">{{site.description}}</p>
+    </div>
+    <div class="col">
+      <div class="hstack gap-3">
+        <a href="https://twitter.com/analytics_defi" class="ms-auto twitter"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UCe2SQ7VwTa1x6QtsZHaXtyA" class="me-auto youtube"><i
+            class="bi bi-youtube"></i></a>
+      </div>
     </div>
   </div>
 </footer>
