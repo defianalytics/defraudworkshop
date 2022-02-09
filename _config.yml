@@ -10,6 +10,7 @@ github_username:  jekyllrb
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 
 # Exclude from processing.
